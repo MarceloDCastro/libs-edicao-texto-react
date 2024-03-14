@@ -2,6 +2,7 @@ import { Type } from "lucide-react";
 import Link from "next/link";
 import { NavLink } from "./navlink";
 import { Input } from "./ui/input";
+import { Title } from "./text";
 
 export function Header() {
   return (
@@ -10,7 +11,7 @@ export function Header() {
         <Link href="/">
           <div className="flex gap-2 items-center mr-4 sm:mr-16">
             <Type />
-            <h1 className="text-xl font-bold tracking-tight">Edição de Texto</h1>
+            <Title as="h1" className="text-xl font-bold tracking-tight">Edição de Texto</Title>
           </div>
         </Link>
 
