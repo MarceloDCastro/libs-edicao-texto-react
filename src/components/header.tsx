@@ -18,6 +18,7 @@ export function Header() {
         <nav className="flex gap-4 sm:gap-6 text-sm items-center">
           <NavLink href="/syncfusion">Syncfusion</NavLink>
           <NavLink href="/docxtemplater">docxtemplater</NavLink>
+          <NavLink href="/draft">Draft.js</NavLink>
         </nav>
       </div>
     </header>
